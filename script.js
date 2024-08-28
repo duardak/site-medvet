@@ -6,23 +6,23 @@ const textoResultado = document.querySelector("texto-resultado");
 
 const perguntas = [
     {
-    enunciado:"Pode dar banho em pets com produtos de humanos?"
+    enunciado:"Pode dar banho em pets com produtos de humanos?",
     alternativas: [
         {
-            texto:"Sim, pois é mais barato."
+            texto:"Sim, pois é mais barato.",
             afirmacao:"resposta poitiva, produtos são baratos."
         },
         {
-            texto:"Não, é contra indicao pois pode causar problemas de pele e não é composto próprios."
+            texto:"Não, é contra indicao pois pode causar problemas de pele e não é composto próprios.",
             afirmacao:"resposta negativa, é o certo a se fazer."
         }
     ]
 },
 {
-    enunciado:"É necessário tampar os ouvidos do pet na hora do banho?"
+    enunciado:"É necessário tampar os ouvidos do pet na hora do banho?",
     alternativas: [
         {
-            texto:"Sim, pois é uma área que ele não secam sozinhos e se molhar pode gerar doenças."
+            texto:"Sim, pois é uma área que ele não secam sozinhos e se molhar pode gerar doenças.",
             afirmacao:"respota positiva, a área é sensível."
         },
         {
@@ -32,14 +32,14 @@ const perguntas = [
     ]
 },
 {
-    enunciado : "Todos os pets precisam de banho?"
+    enunciado : "Todos os pets precisam de banho?",
     alternativas: [
         {
-            texto:"Sim, porque precisam ficar cheirosos."
-            afirmacao:"pets cheirosos.",
+            texto:"Sim, porque precisam ficar cheirosos.",
+            afirmacao:"pets cheirosos."
         },
         {
-            texto:"Não, pois muitos não precisam por conta de se limparem sozinhos."
+            texto:"Não, pois muitos não precisam por conta de se limparem sozinhos.",
             afirmacao:"ficam limpos sozinhos."
         }
     ]
